@@ -19,7 +19,6 @@ default, this prompt is the name of the virtual environment folder (VenvDir)
 surrounded by parentheses and followed by a single space (ie. '(.venv) ').
 
 .Example
-Activate.ps1
 Activates the Python virtual environment that contains the Activate.ps1 script.
 
 .Example
