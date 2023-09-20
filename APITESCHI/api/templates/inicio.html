@@ -36,8 +36,10 @@
         
                     <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
                             <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css"/>
-                            <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css"/>
-                        <!--end::Global Stylesheets Bundle-->
+                            
+                            <!-- Aqui se jala el CSS  para la visualisacion general-->
+                            <link rel="stylesheet" href="{% static 'css/style.bundle.css'%}"  rel="stylesheet" type="text/css">
+                        
         
                     <!--begin::Google tag-->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-37564768-1"></script>
