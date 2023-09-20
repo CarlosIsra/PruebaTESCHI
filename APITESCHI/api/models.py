@@ -69,3 +69,6 @@ class Direccion_Clientes (models.Model):
     idDireccion_Clientes  = models.IntegerField(primary_key=True, db_column='Direccion_Clientes')
     FKidDireccion = models.ForeignKey(direccion, on_delete=models.CASCADE,db_column='FKidDireccion')
     FKclientes = models.ForeignKey(clientes, on_delete=models.CASCADE,db_column='FKclientes')
+    class Meta:
+        db_table = 'Direccion_Clientes'
+
