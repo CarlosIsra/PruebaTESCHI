@@ -6,10 +6,18 @@
     <link rel="stylesheet" href="{% static 'css/style.css'%}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iniciar sesión</title>
 </head>
 <body>
-    
-    <h1>Hola Como estas XD</h1>
+    <h1>Iniciar sesión</h1>
+    <form action="validar_login.php" method="post">
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" required>
+        <br><br>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+        <br><br>
+        <input type="submit" value="Iniciar sesión">
+    </form>
 </body>
 </html>
